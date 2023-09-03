@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    app:endIconMode="password_toggle"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#E3D0D0"
+        android:password="false"
+        android:text="@string/sign_up_page"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="Deprecated,TextViewEdits" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+        android:drawableStart="@drawable/baseline_person_2_24"
+        android:hint="@string/enter_your_name"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        app:startIconDrawable="@drawable/baseline_person_outline_24"
+        tools:ignore="VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unique"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/baseline_person_2_24"
+        android:hint="@string/enter_unique_id"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+<EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/baseline_phone_android_24"
+        android:hint="@string/enter_your_phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/mailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="40dp"
+        android:autofillHints="emailAddress"
+        android:drawableStart="@drawable/baseline_person_2_24"
+        android:hint="@string/enter_your_mail_address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:shadowColor="@color/black"
+        android:textSize="20sp"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#5E35B1"
+        android:text="@string/sign_up"
+        android:textColor="#F6EEEE"
+        android:textSize="25sp"
+        tools:ignore="VisualLintButtonSize" />
+
+
+
+</LinearLayout>

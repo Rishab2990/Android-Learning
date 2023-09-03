@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95845923011",
+    "project_id": "database-af478",
+    "storage_bucket": "database-af478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95845923011:android:61f714142c16778b060a76",
+        "android_client_info": {
+          "package_name": "com.example.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95845923011-k1s3cbbahosahlmgbrmilstgiplhrik5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD18jdRn2-YtwHAety9R6k81V0zgzZpPKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95845923011-k1s3cbbahosahlmgbrmilstgiplhrik5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
