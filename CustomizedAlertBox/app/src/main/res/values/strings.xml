@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Customized Alert Box</string>
+    <string name="rishab_singh_is_learning_android_development">Rishab Singh Is Learning Android Development</string>
+    <string name="how_is_the_android_development_journey_is_going">How is the Android Development Journey is going</string>
+    <string name="learning_customized_alert_box">Learning Customized Alert Box</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="feedback">Feedback</string>
+    <string name="too_good">TOO GOOD</string>
+</resources>
