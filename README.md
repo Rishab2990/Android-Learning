@@ -1,2 +1,2 @@
 # Android-Projects
-In this Repository i add all the basic learning of android development 
+In this Repository, I add all the basic learning of Android development 
