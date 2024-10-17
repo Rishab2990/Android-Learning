@@ -3,7 +3,6 @@
 Welcome to my **Android Learning** repository! This space is dedicated to documenting my journey and exploration of Android development. Here, you will find my notes, learning resources, and projects that contribute to my growth as an Android developer.
 
 ---
-
 ## 🚀 Learning Objectives
 
 In this repository, I aim to build a strong foundation in Android development. My learning objectives include:
